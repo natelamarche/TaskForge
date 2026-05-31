@@ -3,7 +3,7 @@ export interface Task {
     readonly creationDate: Date,
     dueDate: Date,
     title: string
-    completed: Boolean
+    completed: boolean
 
 }
 
