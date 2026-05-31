@@ -5,5 +5,12 @@
     "dueDate": "2026-06-01T00:00:00.000Z",
     "title": "Get groceries",
     "completed": false
+  },
+  {
+    "ID": 2,
+    "creationDate": "2026-05-31T22:00:37.257Z",
+    "dueDate": "2026-06-02T00:00:00.000Z",
+    "title": "Walk the dog",
+    "completed": true
   }
 ]

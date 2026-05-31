@@ -95,6 +95,7 @@ async function main(): Promise<void> {
             manager.setComplete(id);
             await saveTasks(manager.getTasks());
             console.log(`Set complete task ${id}`);
+            return;
 
         }
 
@@ -116,7 +117,7 @@ async function main(): Promise<void> {
             manager.setIncomplete(id);
             await saveTasks(manager.getTasks());
             console.log(`Set incomplete task ${id}`);
-
+            return;
         }
 
         if (command === "stats") {
